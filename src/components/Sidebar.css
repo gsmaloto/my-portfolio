@@ -1,0 +1,28 @@
+.sidebar {
+    position: fixed;
+    z-index: 100;
+    
+
+}
+.sidebar__links {
+    background-color: #343444;
+    display: none;
+    min-height: 100vh;
+    display: flex;
+    width: 40px;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.sidebar__link {
+    cursor: pointer;
+}
+.sidebar__link a:hover {
+    color: #EA0048;
+    transition: all ease-in 200ms;
+    
+}

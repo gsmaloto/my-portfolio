@@ -1,0 +1,30 @@
+.about {
+    margin-left: 40px;
+    min-height: 100vh;
+    color: white;
+}
+.about__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap-reverse;
+}
+.about__title {
+    text-align: center;
+    padding: 20px;
+}
+.about__left {
+    width: 450px;
+}
+.about__details {
+    line-height: 1.5;
+}
+.about__image {
+    width: 100%;
+    object-fit: contain;
+}
+.about__right {
+    width: 550px;
+    padding: 20px;
+}
