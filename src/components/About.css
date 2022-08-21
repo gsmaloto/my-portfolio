@@ -19,6 +19,9 @@
 }
 .about__details {
     line-height: 1.5;
+    text-indent: 2rem;
+    line-height: 1.9;
+    text-align: justify;
 }
 .about__image {
     width: 100%;

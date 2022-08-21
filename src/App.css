@@ -8,13 +8,20 @@
 
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    overflow-x: hidden;
+}
 a {
     color: white;
 }
 .app {
     min-width: 100vw;
     min-height: 100vh;
+    overflow: hidden;
+
+    
 }
+
 
 
 .app__theme {
@@ -138,7 +145,7 @@ a {
     box-shadow: 12vmin 0 2.128584458005657vmin currentColor;
 }
 .background span:nth-child(8) {
-    color: #ffffff;
+    color: yellow;
     top: 61%;
     left: 67%;
     animation-duration: 186s;
@@ -147,7 +154,7 @@ a {
     box-shadow: 12vmin 0 2.2023404584390125vmin currentColor;
 }
 .background span:nth-child(9) {
-    color: #ffffff;
+    color: yellow;
     top: 26%;
     left: 34%;
     animation-duration: 142s;

@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="app">
       <Sidebar />
-      <Routes>
+      <Routes className='app__main'>
         <Route path="/my-portfolio" element={<Hero />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/about" element={<About />} />

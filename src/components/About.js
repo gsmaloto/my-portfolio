@@ -1,18 +1,17 @@
 import React from "react";
 import "./About.css";
-import aboutImage from "../assets/about-image.svg"
+import aboutImage from "../assets/about-image.svg";
 
 const About = () => {
   return (
     <div className="about">
-        <h1 className="about__title">About Me</h1>
+      <h1 className="about__title">About Me</h1>
       <div className="about__box">
         <div className="about__left">
           <p className="about__details">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ullam
-            nobis nostrum aliquam excepturi accusamus tenetur, libero, corrupti
-            recusandae, soluta quas maxime porro mollitia voluptatem laborum
-            eligendi laboriosam distinctio impedit tempore labore officia? Vel!
+            My name is Gener Maloto, looking for a position to kickstart my career in the
+            field of Web Development. Have a Degree of Bachelor of Science
+            in Information Technology from Laguna State Polytechnic University.
           </p>
         </div>
         <div className="about__right">

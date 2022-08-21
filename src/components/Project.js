@@ -13,7 +13,7 @@ const Project = () => {
           <ProjectCard
             title="Random Advice Generator"
             image={require("../assets/random-advice.jpg")}
-            description="ldjhaksjdhaksghdkajshdkjh"
+            description="I practice fetching API in this project. I used Advice Slip JSON API for the advice"
             tech="HTML - CSS - Javascript"
             code="https://github.com/gsmaloto/random-advice"
             demo="https://randomadvicee.netlify.app/"
@@ -21,7 +21,7 @@ const Project = () => {
           <ProjectCard
             title="Movie World"
             image={movieWorld}
-            description="This is my first project using react. I used OMDB API for the movies."
+            description="This is my first project using reactJS. I used OMDB API for the movies."
             tech='HTML - CSS - ReactJS'
             code="https://github.com/gsmaloto/movie-world"
             demo="https://gsmaloto.github.io/movie"
@@ -29,19 +29,20 @@ const Project = () => {
            <ProjectCard
             title="Youtube Clone"
             image={yt}
-            description="This project is user interface and dont have a."
-            tech='HTML - CSS - MaterialUI - ReactJS'
+            description="This Youtube Clone is homepage UI only."
+            tech='HTML - CSS - Material UI - ReactJS'
             code="https://github.com/gsmaloto/youtube-clone"
             demo="https://gsmaloto.github.io/youtube-clone/"
           />
           <ProjectCard
             title="AX Fitness Appointment and Scheduling System"
             image={axfitness}
-            description="This is my first project using react. I used OMDB API for the movies."
+            description="This is my Capstone Project in college"
             tech='HTML - CSS - Bootstrap - Javascript - MYSQL'
             code="https://github.com/gsmaloto/axfitness"
             demo=""
           />
+
       </div>
     </div>
   );
