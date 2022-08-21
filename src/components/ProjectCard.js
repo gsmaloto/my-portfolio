@@ -15,14 +15,14 @@ const ProjectCard = ({ title, image, description, tech, code, demo }) => {
         <div className="projectCard__tech">
           <p>{tech}</p>
         </div>
-        <a href={code} className="projectCard__button">
+        {code && <a href={code} className="projectCard__button">
           <CodeIcon />
           <span>Source Code</span>
-        </a>
-        <a href={demo} className="projectCard__button">
+        </a>}
+        {demo && <a href={demo} className="projectCard__button">
           <VisibilityIcon />
           <span>Live Demo</span>
-        </a>
+        </a>}
       </div>
     </div>
   );

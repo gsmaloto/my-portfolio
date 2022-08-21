@@ -38,7 +38,7 @@ const Project = () => {
             title="AX Fitness Appointment and Scheduling System"
             image={axfitness}
             description="This is my first project using react. I used OMDB API for the movies."
-            tech='HTML - CSS - ReactJS'
+            tech='HTML - CSS - Bootstrap - Javascript - MYSQL'
             code="https://github.com/gsmaloto/axfitness"
             demo=""
           />
