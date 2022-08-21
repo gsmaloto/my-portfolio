@@ -21,7 +21,7 @@ function App() {
     <div className="app">
       <Sidebar />
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/my-portfolio" element={<Hero />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/about" element={<About />} />
       </Routes>
