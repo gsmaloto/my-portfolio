@@ -18,7 +18,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar__links">
         <div className="sidebar__link">
-          <Link to='/'><HomeOutlinedIcon /></Link>
+          <Link to='/my-portfolio'><HomeOutlinedIcon /></Link>
         </div>
         <div className="sidebar__link">
           <Link to='/projects'><FolderOpenOutlinedIcon /></Link>
