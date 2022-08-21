@@ -35,7 +35,7 @@ const Project = () => {
             demo="https://gsmaloto.github.io/youtube-clone/"
           />
           <ProjectCard
-            title="AX Fitness Appointment & Scheduling System"
+            title="AX Fitness Appointment and Scheduling System"
             image={axfitness}
             description="This is my first project using react. I used OMDB API for the movies."
             tech='HTML - CSS - ReactJS'
