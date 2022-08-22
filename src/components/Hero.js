@@ -48,7 +48,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <a href="https://drive.google.com/file/d/1ZCqcrNbcpXOCpbkpPFM5pNKw6BWjcuQ7/view" target="_blank" className="hero__cv">My CV</a>
+          <a href="https://drive.google.com/file/d/1Ffn3V-wS74p05Qq7n1_YdXhvnuoJSK2G/view?usp=sharing" target="_blank" className="hero__cv">My CV</a>
         </Bounce>
       </div>
     </div>

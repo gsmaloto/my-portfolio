@@ -4,12 +4,21 @@ import ProjectCard from "./ProjectCard";
 import movieWorld from '../assets/movieWorld.jpg'
 import yt from '../assets/yt.png'
 import axfitness from '../assets/axfitness.png'
+import portfolio from '../assets/portfolio.png'
 
 const Project = () => {
   return (
     <div className="project">
       <h1 className="project__title">My Projects</h1>
       <div className="project__box">
+      <ProjectCard
+            title="Simple Portfolio"
+            image={portfolio}
+            description="I created this portfolio to showcase my projects and skills."
+            tech="HTML - CSS - Javascript"
+            code="https://github.com/gsmaloto/random-advice"
+            demo="https://randomadvicee.netlify.app/"
+          />
           <ProjectCard
             title="Random Advice Generator"
             image={require("../assets/random-advice.jpg")}
@@ -37,7 +46,7 @@ const Project = () => {
           <ProjectCard
             title="AX Fitness Appointment and Scheduling System"
             image={axfitness}
-            description="This is my Capstone Project in college"
+            description="This is my Capstone Project in college. It has function of auto generate QR Code and Scanner."
             tech='HTML - CSS - Bootstrap - Javascript - MYSQL'
             code="https://github.com/gsmaloto/axfitness"
             demo=""
