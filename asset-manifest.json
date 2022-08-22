@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7042f894.css",
-    "main.js": "/my-portfolio/static/js/main.a175cbea.js",
+    "main.css": "/my-portfolio/static/css/main.1c871496.css",
+    "main.js": "/my-portfolio/static/js/main.9e26a2a7.js",
     "static/media/yt.png": "/my-portfolio/static/media/yt.473bdbb44fc865fa302d.png",
     "static/media/axfitness.png": "/my-portfolio/static/media/axfitness.5bada3ac7a99ba739082.png",
     "static/media/movieWorld.jpg": "/my-portfolio/static/media/movieWorld.318991bbffcff6184500.jpg",
+    "static/media/portfolio.png": "/my-portfolio/static/media/portfolio.b10d13cb2e7a40801510.png",
     "static/media/random-advice.jpg": "/my-portfolio/static/media/random-advice.cfe85bf03393e9a6f408.jpg",
     "static/media/about-image.svg": "/my-portfolio/static/media/about-image.f3f529d8d55c11447bf959c6dfa74004.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.7042f894.css.map": "/my-portfolio/static/css/main.7042f894.css.map",
-    "main.a175cbea.js.map": "/my-portfolio/static/js/main.a175cbea.js.map"
+    "main.1c871496.css.map": "/my-portfolio/static/css/main.1c871496.css.map",
+    "main.9e26a2a7.js.map": "/my-portfolio/static/js/main.9e26a2a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7042f894.css",
-    "static/js/main.a175cbea.js"
+    "static/css/main.1c871496.css",
+    "static/js/main.9e26a2a7.js"
   ]
 }
