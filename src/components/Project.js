@@ -15,9 +15,8 @@ const Project = () => {
             title="Simple Portfolio"
             image={portfolio}
             description="I created this portfolio to showcase my projects and skills."
-            tech="HTML - CSS - Javascript"
-            code="https://github.com/gsmaloto/random-advice"
-            demo="https://randomadvicee.netlify.app/"
+            tech="HTML - CSS - Material UI - ReactJS"
+            code="https://github.com/gsmaloto/my-portfolio"
           />
           <ProjectCard
             title="Random Advice Generator"
