@@ -15,20 +15,21 @@ const Hero = () => {
           <h3 className="hero__job">Web Developer</h3>
         </Bounce>
         <Bounce bottom delay={200} duration={1500}>
-        <div className="hero__stacks">
-            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
-            <img src="https://img.icons8.com/color/48/000000/css3.png"/>
-            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
-            <img src="https://img.icons8.com/color/48/000000/sass.png"/>
-            <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
-            <img src="https://img.icons8.com/color/48/000000/material-ui.png"/>
-            <img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png"/>
-            <img src="https://img.icons8.com/officel/16/000000/php-logo.png"/>
-            <img src="https://img.icons8.com/color/48/000000/mysql-logo.png"/>
-            <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/>
-            <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"/>
-            <img src="https://img.icons8.com/fluency/48/000000/adobe-photoshop.png"/>
-            </div>
+          <div className="hero__stacks">
+            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+            <img src="https://img.icons8.com/color/48/000000/css3.png" />
+            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
+            <img src="https://img.icons8.com/color/48/000000/sass.png" />
+            <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
+            <img src="https://img.icons8.com/color/48/000000/material-ui.png" />
+            <img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" />
+            <img src="https://img.icons8.com/color/48/228BE6/firebase.png" />
+            <img src="https://img.icons8.com/officel/16/000000/php-logo.png" />
+            <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" />
+            <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" />
+            <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" />
+            <img src="https://img.icons8.com/fluency/48/000000/adobe-photoshop.png" />
+          </div>
 
           <div className="hero__socials">
             <div className="hero__social">
@@ -48,7 +49,13 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <a href="https://drive.google.com/file/d/1Ffn3V-wS74p05Qq7n1_YdXhvnuoJSK2G/view?usp=sharing" target="_blank" className="hero__cv">My CV</a>
+          <a
+            href="https://drive.google.com/file/d/1Ffn3V-wS74p05Qq7n1_YdXhvnuoJSK2G/view?usp=sharing"
+            target="_blank"
+            className="hero__cv"
+          >
+            My CV
+          </a>
         </Bounce>
       </div>
     </div>

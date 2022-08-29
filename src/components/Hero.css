@@ -1,78 +1,76 @@
 .hero {
-    margin-left: 40px;
-    padding: 20px;
-    height: 100vh;
-    overflow: hidden;
+  margin-left: 40px;
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
 }
 .hero__text {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: wheat;
-    z-index: 100;
-    text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  z-index: 100;
+  text-align: center;
 }
 .hero__greet {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .hero__name {
-    padding: 10px;
-    font-size: 3rem;
-    color: #EA0048;
+  padding: 10px;
+  font-size: 3rem;
+  color: #ea0048;
 }
 .hero__job {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .hero__socials {
-    display: flex;
-    padding: 20px;
-    gap: 20px;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
 }
 .hero__stacks {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 10px;
-    margin: 10px 0;
-    border-top: 3px solid #EA0048;
-    border-bottom: 3px solid #EA0048;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  margin: 10px 0;
+  border-top: 3px solid #ea0048;
+  border-bottom: 3px solid #ea0048;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .hero__stacks img {
-    height: 25px;
-    transition: all ease-in 200ms;
+  height: 25px;
+  transition: all ease-in 200ms;
 }
 .hero__stacks img:hover {
-    transform: scale(1.7);
+  transform: scale(1.7);
 }
 .hero__social {
-    cursor: pointer;
-    
+  cursor: pointer;
 }
-.hero__social a{
-    transition: all ease-in 200ms;
+.hero__social a {
+  transition: all ease-in 200ms;
 }
 .hero__social a:hover {
-    color: #EA0048;
+  color: #ea0048;
 }
 .hero__cv {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: transparent;
-    color: #EA0048;
-    font-weight: 700;
-    border-radius: 5px;
-    border: 3px solid #EA0048;
-    transition: all ease-in 200ms;
-    text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #ea0048;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 3px solid #ea0048;
+  transition: all ease-in 200ms;
+  text-decoration: none;
 }
 .hero__cv:hover {
-    background-color: #EA0048;
-    color: white;
-    
+  background-color: #ea0048;
+  color: white;
 }
 
 /* @keyframes move {
