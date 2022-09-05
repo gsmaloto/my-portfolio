@@ -6,6 +6,7 @@ import yt from "../assets/yt.png";
 import axfitness from "../assets/axfitness.png";
 import portfolio from "../assets/portfolio.png";
 import todo from "../assets/todo.png";
+import ig from "../assets/ig.png";
 
 const Project = () => {
   return (
@@ -13,12 +14,20 @@ const Project = () => {
       <h1 className="project__title">My Projects</h1>
       <div className="project__box">
         <ProjectCard
+          title="Instagram Clone"
+          image={ig}
+          description="This project is mobile resposive and have dark mode function."
+          tech="HTML - CSS - Material UI - ReactJS - Tailwind CSS"
+          code="https://github.com/gsmaloto/instagram-clone"
+          demo="https://gsmaloto.github.io/instagram-clone/"
+        />
+        <ProjectCard
           title="Todo App"
           image={todo}
           description="This project has Facebook Authentication."
           tech="HTML - CSS - Material UI - ReactJS - Firebase"
-          code="https://github.com/gsmaloto/todo-app"
-          demo="https://gsmaloto.github.io/todo-app/"
+          code="https://github.com/gsmaloto/instagram-clone"
+          demo="https://gsmaloto.github.io/instagram-clone/"
         />
         <ProjectCard
           title="Simple Portfolio"
