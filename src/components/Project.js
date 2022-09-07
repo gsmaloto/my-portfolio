@@ -26,8 +26,8 @@ const Project = () => {
           image={todo}
           description="This project has Facebook Authentication."
           tech="HTML - CSS - Material UI - ReactJS - Firebase"
-          code="https://github.com/gsmaloto/instagram-clone"
-          demo="https://gsmaloto.github.io/instagram-clone/"
+          code="https://github.com/gsmaloto/todo-app"
+          demo="https://gsmaloto.github.io/todo-app"
         />
         <ProjectCard
           title="Simple Portfolio"

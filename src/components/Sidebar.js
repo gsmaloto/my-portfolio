@@ -1,12 +1,8 @@
+import FolderOpenOutlinedIcon from "@mui/icons-material/FolderOpenOutlined";
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import React from "react";
 import "./Sidebar.css";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import FolderOpenOutlinedIcon from "@mui/icons-material/FolderOpenOutlined";
-import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
-import ConnectWithoutContactOutlinedIcon from "@mui/icons-material/ConnectWithoutContactOutlined";
-
-import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 
 import Bounce from "react-reveal/Bounce";
 import { Link } from "react-router-dom";

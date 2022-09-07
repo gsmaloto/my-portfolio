@@ -16,19 +16,62 @@ const Hero = () => {
         </Bounce>
         <Bounce bottom delay={200} duration={1500}>
           <div className="hero__stacks">
-            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
-            <img src="https://img.icons8.com/color/48/000000/css3.png" />
-            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
-            <img src="https://img.icons8.com/color/48/000000/sass.png" />
-            <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
-            <img src="https://img.icons8.com/color/48/000000/material-ui.png" />
-            <img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" />
-            <img src="https://img.icons8.com/color/48/228BE6/firebase.png" />
-            <img src="https://img.icons8.com/officel/16/000000/php-logo.png" />
-            <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" />
-            <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" />
-            <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" />
-            <img src="https://img.icons8.com/fluency/48/000000/adobe-photoshop.png" />
+            <img
+              src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/000000/css3.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/000000/sass.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/000000/bootstrap.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/000000/material-ui.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/fluency/48/000000/tailwind_css.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/228BE6/firebase.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/officel/16/000000/php-logo.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/000000/mysql-logo.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+              alt="icons"
+            />
+            <img
+              src="https://img.icons8.com/fluency/48/000000/adobe-photoshop.png"
+              alt="icons"
+            />
           </div>
 
           <div className="hero__socials">
@@ -50,11 +93,11 @@ const Hero = () => {
             </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/1Ffn3V-wS74p05Qq7n1_YdXhvnuoJSK2G/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zcEkm9O0JLXCxqp00a46rsb64B-IJe25/view?usp=sharing"
             target="_blank"
             className="hero__cv"
           >
-            My CV
+            My Resume
           </a>
         </Bounce>
       </div>

@@ -3,12 +3,10 @@ import Hero from "./components/Hero";
 import "./components/Sidebar";
 import Sidebar from "./components/Sidebar";
 
-import { Routes, Route } from "react-router-dom";
-import Project from "./components/Project";
+import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
+import Project from "./components/Project";
 
-import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import { useState } from "react";
 
 function App() {
@@ -20,7 +18,7 @@ function App() {
   return (
     <div className="app">
       <Sidebar />
-      <Routes className='app__main'>
+      <Routes className="app__main">
         <Route path="/my-portfolio" element={<Hero />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/about" element={<About />} />

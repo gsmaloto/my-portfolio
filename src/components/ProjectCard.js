@@ -1,9 +1,7 @@
+import GitHubIcon from "@mui/icons-material/GitHub";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import React from "react";
 import "./ProjectCard.css";
-import CodeIcon from "@mui/icons-material/Code";
-import VisibilityIcon from "@mui/icons-material/Visibility";
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import GitHubIcon from '@mui/icons-material/GitHub';
 
 const ProjectCard = ({ title, image, description, tech, code, demo }) => {
   return (
@@ -18,14 +16,17 @@ const ProjectCard = ({ title, image, description, tech, code, demo }) => {
           <p>{tech}</p>
         </div>
         <div className="projectCard__buttons">
-           {code && <a href={code} target="_blank" className="projectCard__button">
-          <GitHubIcon />
-        </a>}
-        {demo && <a href={demo} target="_blank" className="projectCard__button">
-          <OpenInNewIcon />
-        </a>}
+          {code && (
+            <a href={code} target="_blank" className="projectCard__button">
+              <GitHubIcon />
+            </a>
+          )}
+          {demo && (
+            <a href={demo} target="_blank" className="projectCard__button">
+              <OpenInNewIcon />
+            </a>
+          )}
         </div>
-       
       </div>
     </div>
   );
